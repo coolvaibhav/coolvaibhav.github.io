@@ -1,69 +1,290 @@
-<html>
-	<head>
-		<title>Vaibhav Kulkarni</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<style>
-		html,
-			body {
-			  height: 100%;
-			  background-color:#F1F1F1;
-			  /* The html and body elements cannot have any padding or margin. */
-			}
-			.connection-list{
-				font-size:25px;
-				padding:10px;
-				text-align:center;
-			}
-			connection-list > i  {
-				padding-right: 5px;
-			} 
-			.capital {
-				text-transform: capitalize;
-			}
-			.profile-inner{
-				padding:10px;
-				margin:10px;
-				background-color:white;
-			}
-			.green{border:1px solid green}
-			.red{border:1px solid red}
-			.profile-pic{width:100px;height:100px}
-			.profile-pic-container{text-align:center}
-			.profile-context{padding:15px}
-			.shadow {-moz-box-shadow:inset 0 0 10px #000000;-webkit-box-shadow: inset 0 0 10px #000000;box-shadow:inset 0 0 10px #000000;}
-			.gap-3{}
-			
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class=" green profile-inner">
-						<div class="profile-context text-center shadow">
-							<div class="profile-pic-container">
-								<img class="profile-pic" src="profile.png" >
-							</div>
-							<h4><strong>Vaibhav Dattatray Kulkarni</strong></h4>
-							<h6><span class=''>Web Developer</span></h6>
-						</div>
-						<div class="connection-list"> 
-						<i class="fa fa-linkedin-square" style="color:blue"></i> 						
-						<i class="fa fa-stack-overflow" style="color:red"></i> </div>
-						
-						<div class="shadow profile-context">
-							<h5 class='text-center capital'><strong>About Me</strong></h5>
-						I Have 6+ years of experiance in web development.</div>
-						
-					</div>
-				</div>
-				<div class="green col-md-8"></div>
-			</div>
-		</div>
-		
-	</body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Web Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="asset/style.css">
+     
+</head>
+<body>
+    <button id="hamburger-menu"><span>&#9776;</span></button>
+    <div id="sidebar">
+        <img src="asset/logo-v.jpg" alt="Profile Photo">
+        <span class="profile-name">Vaibhav Kulkarni</span>
+        <span class="job-title">Web Developer</span>
+        <ul>
+            <li><a href="#summary"><i class="fas fa-user"></i>About</a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i>Professional Experience</a></li>
+            <li><a href="#skills"><i class="fas fa-laptop-code"></i>Technical Skills</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i>Education</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i>Personal Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+            <li><a href="#awards"><i class="fas fa-trophy"></i>Awards</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="summary">
+            <div class="content-box">
+                <h2>About</h2>
+                <div class="about-info">
+                    <p>
+                        <strong style="color: #0a9396;">Hi, my name is Vaibhav Kulkarni!</strong> I am a web developer from Pune, India, with over <strong>10 years of experience</strong> in the IT industry. Over this long journey, I have learned countless small but meaningful things that have made me a better professional. It has taught me the importance of <strong>continuous improvement</strong>, adapting to change, and embracing lifelong learning.
+                    </p>
+                    <p>
+                        As a web developer, I have successfully completed numerous projects with a <strong>positive attitude</strong> and a strong ability to collaborate within teams. I have developed many projects from scratch and take pride in creating <strong>web applications</strong> that help improve businesses. Helping others is one of my greatest passions.
+                    </p>
+                    <p >
+                        My current focus is on further enhancing my web development skills and continuing to grow in this field. I am excited to keep learning and evolving in this ever-changing industry.
+                    </p>
+                    <p >
+                        My dedication and passion for my work have earned me several accolades, including being recognized as <strong>Star of the Month</strong> multiple times. I also received <strong>two international trips as awards</strong> for my consistent performance over two consecutive years.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="content-box">
+                <h2>Professional Experience</h2>
+
+                <!-- Professional Experience Entries -->
+                <div class="experience-entry">
+                    <strong>Loantap Fiancial Technologies Pvt. Ltd. (Dec 2017 – Present)</strong>
+                    <p>LoanTap is an online personal loan platform in India, Loantap in RBI approved NBFC. In loantap I have worked as a <strong>Full Stack Developer</strong>. I worked on various projects from loan application sourcing to loan disbursement and collection.</p>
+                    <h3>Roles and Responsibilities:</h3>
+                    <ul>
+                        <li>Integration of  a Cashfree <strong>payment gategay</strong> to collect the outstanding amount of the customer.</li>
+                        <li>Integration of a Cashfree <strong> NACH presentation </strong>  API to collect tha EMI amount of the customer on due date.</li>
+                        <li><strong>Build the API </strong> for partner to make onboarding journey (Create loan application,upload documents),and loan transaction (Loan Info, loan status, withdrawal) for partner to</li>
+                        <li>Intgeration with gov entities like ESIGN and EKYC</li>
+                        <li>Managed AWS services, like SES and S3.</li>
+                        <li>Collaborated with cross-functional teams to deliver projects on time.</li>
+                        <li>Handling the database and all type of reports</li>
+                        <li>Optimized website performance and implemented responsive designs.</li>
+                        <li> Stack: AWS / Lambda(python) / API Gateway / GIT / Wordpress / Awesome Studio / MYSQL / PHP / Onenote / Jquery / JavaScript / Redis / Jira</li>
+                    </ul>
+                    <h3>Accomplishments:</h3>
+                    <ul>
+                        <li>Handling the software development for the product bases company with cooridnation od business team .</li>
+                        <li>Creating Training material for other developers to lean <a href="https://www.youtube.com/watch?v=yD752DbtQTk" target="_blank"> Awesome studio </a></li>
+                        <li>Created <a href="https://github.com/techieloantap/aws" target="_blank"> AWS  library </a> to support AWS services for Awesome studio .</li>
+                    </ul>
+                </div>
+
+                <div class="experience-entry">
+                    <strong>VDRIVIT SOLUTIONS PRIVATE LIMITED (Jun 2017 – Dec 2017)</strong>
+                    <h3>Roles and Responsibilities:</h3>
+                    <ul>
+                        <li>Worked as a software developer, on IOT project.</li>
+                        <li>IOT project based on LED light, and operated from mobile phone.</li>
+                        <li> Stack: Linux / Python / Networking/ IOT /SAAS Apllication </li>
+                    </ul>
+                </div>
+                <div class="experience-entry">
+                    <strong>Xoyal IT Services (Feb 2017 to May 2017)</strong>
+                    <h3>Roles and Responsibilities:</h3>
+                    <ul>
+                        <li>Wroked as SR.PHP Developer.</li>
+                        <li> Stack: MYSQL / PHP / Laravel / HTML / CSS / Bootstrap / JavaScript / Jquery / Redis</li>
+
+                    </ul>
+                </div>
+
+                <div class="experience-entry">
+                    <strong>Panacea Infotech Pvt. Ltd. (Jan 2015 to Jan 2017)</strong>
+                    <p>I worked as PHP Developer at Panacea Infotech Pvt. Ltd. where I worked as a <strong>backed-end Developer</strong>.</p>
+                    <h3>Roles and Responsibilities:</h3>
+                    <ul>
+                        <li>I worked on various projects like website HelpMarket, Property Posting,Horse Registry Management, Online Medical Appointment, Online Medical Appointment</li>
+                        <li>Development and implementation of Core functionality </li>
+                        <li>Make Work break down structure, and deliver project phase wise deliverued all the projects in 4 phases </li>
+                        <li>Understand the business and functional requirements</li>
+                        <li>Database Design</li>
+                        <li>Management of project execution </li>
+                        <li> Stack: MYSQL / PHP / Codeigniter / HTML / CSS / Bootstrap / JavaScript / Jquery /Payment gateway (stripe) / SVN / Bugzilla </li>
+                    </ul>
+                </div>
+
+                <div class="experience-entry">
+                    <strong>Esapiens Technologies Pvt Ltd. (Aug 2013 to Jan 2015)</strong>
+                    <p>I have started my career at Esapiens Technologies Pvt. Ltd., where I worked as a <strong>Front-End and backed-end Developer</strong>.</p>
+                    <p>During this time, I had the opportunity to contribute to various projects and gain valuable experience in web development, I have taken lots of effort to make 3 websites live in in very short period of time </p>
+                    
+                    <h3>Roles and Responsibilities:</h3>
+                    <ul>
+                        <li>I worked on 3 website IT networking site,Astrology,Resume Template</li>
+                        <li> Stack: MYSQL / PHP / Codeigniter / HTML / CSS /Bootstrap / JavaScript / Jquery </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="content-box">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li><strong>Languages/Technologies:</strong> PHP, MySQL, JavaScript, jQuery, HTML, CSS</li>
+                    <li><strong>Framework:</strong> Laravel, Codeigniter</li>
+                    <li><strong>Cloud Services:</strong> AWS SES, AWS S3</li>
+                    <li><strong>Tools/Platforms:</strong> Git, Github</li>
+                    <li><strong>Other Skills:</strong> Responsive Design, Performance Optimization, API Integration</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="content-box" style="font-family: Arial, sans-serif;">
+                <h2 style="color: #0a9396; margin-bottom: 20px;">Education</h2>
+                <div style="display: flex; gap: 20px; justify-content: space-between;">
+                    <!-- Graduation Box -->
+                    <div style="flex: 1; background-color: #f0f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);">
+                        <h3 style="color: #005f73; margin-bottom: 10px;">Graduation</h3>
+                        <p style="margin: 0; font-size: 0.95rem; color: #333;">
+                            <strong>Degree:</strong> Bachelor of Computer Applications <br>
+                            <strong>University:</strong> Tilak Maharashtra University, Pune <br>
+                            <strong>Year:</strong> 2010
+                        </p>
+                    </div>
+        
+                    <!-- Post-Graduation Box -->
+                    <div style="flex: 1; background-color: #f0f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);">
+                        <h3 style="color: #005f73; margin-bottom: 10px;">Post-Graduation</h3>
+                        <p style="margin: 0; font-size: 0.95rem; color: #333;">
+                            <strong>Degree:</strong> Master of Computer Applications <br>
+                            <strong>University:</strong> Solapur University <br>
+                            <strong>Year:</strong> 2013
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="content-box">
+                <h2>Personal Projects</h2>
+                <ul>
+                    <li><strong>Home Expence Management:</strong> A web application for managing personal expenses.</li>
+                    <li><strong>Ecomarce Website:</strong>Selling products online. </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="content-box" style="font-family: Arial, sans-serif; line-height: 1.8;">
+                <h2 style="color: #0a9396; margin-bottom: 20px;">Contact</h2>
+                <p>
+                    <i class="fas fa-envelope" style="color: #005f73; margin-right: 8px;"></i>
+                    <a href="mailto:vaibhavk32@gmail.com" style="color: #005f73; text-decoration: none;">
+                        vaibhavk32@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <i class="fab fa-github" style="color: #333; margin-right: 8px;"></i>
+                    <a href="https://github.com/coolvaibhav" target="_blank" style="color: #005f73; text-decoration: none;">
+                        GitHub Profile
+                    </a>
+                </p>
+                <p>
+                    <i class="fab fa-stack-overflow" style="color: #f48024; margin-right: 8px;"></i>
+                    <a href="https://stackoverflow.com/users/3345628/vaibhav-kulkarni" target="_blank" style="color: #005f73; text-decoration: none;">
+                        Stack Overflow
+                    </a>
+                </p>
+                <p>
+                    <i class="fab fa-medium" style="color: #00ab6c; margin-right: 8px;"></i>
+                    <a href="https://medium.com/@vaibhavk32" target="_blank" style="color: #005f73; text-decoration: none;">
+                        Medium Blog
+                    </a>
+                </p>
+                <p>
+                    <i class="fab fa-youtube" style="color: #ff0000; margin-right: 8px;"></i>
+                    <a href="https://www.youtube.com/@developers2244" target="_blank" style="color: #005f73; text-decoration: none;">
+                        YouTube Channel
+                    </a>
+                </p>
+                <p>
+                    <i class="fab fa-linkedin" style="color: #0077b5; margin-right: 8px;"></i>
+                    <a href="https://www.linkedin.com/in/vaibhav-kulkarni-1062767b/" target="_blank" style="color: #005f73; text-decoration: none;">
+                        LinkedIn Profile
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="content-box">
+                <h2>Awards</h2>
+                <div style="display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h3 style="font-size: 18px; color: #555;">Forgin Trip</h3>
+                        <p style="font-size: 14px; color: #777;">April 2022, (Loantap)</p>
+                        <p style="font-size: 14px; color: #777;">For consistant and dedicated work.</p>
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h3 style="font-size: 18px; color: #555;">Forgin Trip</h3>
+                        <p style="font-size: 14px; color: #777;">May 2021, (Loantap)</p>
+                        <p style="font-size: 14px; color: #777;">For consistant and dedicated work.</p>
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h3 style="font-size: 18px; color: #555;">Star of the Month</h3>
+                        <p style="font-size: 14px; color: #777;">January 2020, (Loantap)</p>
+                        <p style="font-size: 14px; color: #777;">For my impeccable performance and excellence at work.</p>
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h3 style="font-size: 18px; color: #555;">Star of the Month</h3>
+                        <p style="font-size: 14px; color: #777;">May 2021, (Loantap)</p>
+                        <p style="font-size: 14px; color: #777;">For my impeccable performance and excellence at work.</p>
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h3 style="font-size: 18px; color: #555;">Star of the Month</h3>
+                        <p style="font-size: 14px; color: #777;">February 2022, (Loantap)</p>
+                        <p style="font-size: 14px; color: #777;">For my impeccable performance and excellence at work.</p>
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h3 style="font-size: 18px; color: #555;">Star of the Month</h3>
+                        <p style="font-size: 14px; color: #777;">July 2022, (Loantap)</p>
+                        <p style="font-size: 14px; color: #777;">For my impeccable performance and excellence at work.</p>
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h3 style="font-size: 18px; color: #555;">Star of the Month</h3>
+                        <p style="font-size: 14px; color: #777;">November 2022, (Loantap)</p>
+                        <p style="font-size: 14px; color: #777;">For my impeccable performance and excellence at work.</p>
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h3 style="font-size: 18px; color: #555;">Buck Stops with Me</h3>
+                        <p style="font-size: 14px; color: #777;">February 2023, (Loantap)</p>
+                        <p style="font-size: 14px; color: #777;">For taking complete ownership of tasks until closure at work.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Vaibhav Kulkarni</p>
+        </footer>
+    </main>
+    <script>
+        // Toggle sidebar on mobile view
+        const hamburgerMenu = document.getElementById('hamburger-menu');
+        const sidebar = document.getElementById('sidebar');
+        const menuItems = document.querySelectorAll('#sidebar li a');
+
+        
+        hamburgerMenu.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+        });
+
+        menuItems.forEach(item => {
+    item.addEventListener('click', () => {
+        sidebar.classList.remove('active');
+    });
+});
+    </script>
+</body>
+</html>
